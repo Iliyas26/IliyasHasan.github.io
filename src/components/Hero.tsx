@@ -26,7 +26,7 @@ export function Hero() {
             Iliyas Hasan
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
-            Senior SDET | Automation Expert
+            Lead SDET | Automation Expert
           </h2>
           <p className="max-w-2xl text-gray-600 mb-8">
             Dynamic IT professional with 10 years of experience specializing in

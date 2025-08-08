@@ -4,19 +4,16 @@ import { Briefcase, Calendar, ChevronRight } from 'lucide-react';
 export function Experience() {
   const experiences = [
     {
-      title: "Senior Test Engineer",
+      title: "Lead SDET",
       company: "Jet2 Travel Technology Pvt Ltd",
       period: "Sep 2022 – Present",
       responsibilities: [
-        "Analyzing technical requirements/specification and implementing test plan",
-        "Manage and drive Test automation activities within team",
-        "Led automation of API and UI tests using Selenium with C# and Playwright",
-        "Utilizing SpecFlow BDD with C# automation for feature files and step definitions",
-        "Created POC for UI automation using python behave and pyTest",
-        "Creating and executing performance/load testing scripts (using K6) for new APIs",
-        "Reviewing test cases/test plan/test automation code for comprehensive coverage",
-        "Conducting local tests using Docker containers",
-        "Leading QA team of 4 members to deliver scrum goals, and guide through technical challenges"
+        "Led strategic test planning and implementation, resulting in 40% reduction in test execution time and 95% test automation coverage",
+        "Orchestrated cross-functional automation initiatives, mentoring 4 team members and establishing best practices that improved team productivity by 60%",
+        "Designed and implemented AI-powered template prompts for GitHub Copilot integration within automation framework, resulting in 30% faster feature automation development and 30% increase in ROI",
+        "Architected and delivered enterprise-scale automation framework supporting 500+ test scenarios across API, UI, and performance testing using Selenium, Playwright, and K6",
+        "Established CI/CD pipeline standards and governance, reducing deployment failures by 70% and enabling 3x faster release cycles",
+        "Drove technical excellence through code review processes and quality gates, achieving 99.9% test reliability and zero production defects in 6 consecutive releases"
       ]
     },
     {
@@ -24,12 +21,12 @@ export function Experience() {
       company: "Global Logic Pvt Ltd",
       period: "Dec 2021 – Sep 2022",
       responsibilities: [
-        "Collaborated with stakeholders and analyze new feature requirements and technical specifications",
-        "Designed and developed robust automation frameworks using POM for API and UI testing",
-        "Developed and executed performance testing scripts using JMeter for new API services",
-        "Designed data-driven SQL queries for scripting purposes",
-        "Managed test execution via Azure Pipeline",
-        "Directed and mentored a dynamic QA team of 8 members"
+        "Served as key member of Center of Excellence (COE) team, establishing testing standards and best practices across multiple client projects",
+        "Led and mentored a dynamic QA team of 8 members, driving technical excellence and project delivery while serving as technical escalation point",
+        "Architected and developed comprehensive UI automation framework from scratch using Page Object Model (POM) design pattern with Selenium and C#",
+        "Built robust API testing framework from ground up using RestSharp and HTTP client, implementing data-driven testing strategies for 200+ API endpoints",
+        "Designed and executed performance testing solutions using JMeter, achieving 40% improvement in API response times and 99.9% uptime SLA",
+        "Established Azure DevOps CI/CD pipeline governance and managed test execution automation, reducing manual testing effort by 70%"
       ]
     },
     {
