@@ -8,12 +8,13 @@ export function Experience() {
       company: "Jet2 Travel Technology Pvt Ltd",
       period: "Sep 2022 – Present",
       responsibilities: [
-        "Led strategic test planning and implementation, resulting in 40% reduction in test execution time and 95% test automation coverage",
-        "Orchestrated cross-functional automation initiatives, mentoring 4 team members and establishing best practices that improved team productivity by 60%",
-        "Designed and implemented AI-powered template prompts for GitHub Copilot integration within automation framework, resulting in 30% faster feature automation development and 30% increase in ROI",
-        "Architected and delivered enterprise-scale automation framework supporting 500+ test scenarios across API, UI, and performance testing using Selenium, Playwright, and K6",
-        "Established CI/CD pipeline standards and governance, reducing deployment failures by 70% and enabling 3x faster release cycles",
-        "Drove technical excellence through code review processes and quality gates, achieving 99.9% test reliability and zero production defects in 6 consecutive releases"
+        "Defined quality strategy and led test planning resulting in 40% reduction in execution time and 95% automation coverage across UI and API layers",
+        "Orchestrated cross-functional automation initiatives, mentoring 4 team members and establishing standards that improved team productivity by 60%",
+        "Designed and operationalized AI-assisted development workflows using GitHub Copilot with custom prompt templates for SpecFlow feature files and step definitions, accelerating feature automation delivery by 30% while maintaining code quality standards",
+        "Established AI governance guidelines (review, validation, and security checks) ensuring safe and consistent use of AI-generated test code across the team",
+        "Architected and delivered enterprise-scale automation platform supporting 500+ scenarios across UI, API, and performance testing using Selenium, Playwright, and k6",
+        "Built CI/CD quality gates and pipeline governance reducing deployment failures by 70% and enabling 3x faster release cycles",
+        "Drove technical excellence through code review practices and reliability engineering, achieving 99.9% test stability and zero production defects for 6 consecutive releases"
       ]
     },
     {
@@ -21,12 +22,12 @@ export function Experience() {
       company: "Global Logic Pvt Ltd",
       period: "Dec 2021 – Sep 2022",
       responsibilities: [
-        "Served as key member of Center of Excellence (COE) team, establishing testing standards and best practices across multiple client projects",
-        "Led and mentored a dynamic QA team of 8 members, driving technical excellence and project delivery while serving as technical escalation point",
-        "Architected and developed comprehensive UI automation framework from scratch using Page Object Model (POM) design pattern with Selenium and C#",
-        "Built robust API testing framework from ground up using RestSharp and HTTP client, implementing data-driven testing strategies for 200+ API endpoints",
-        "Designed and executed performance testing solutions using JMeter, achieving 40% improvement in API response times and 99.9% uptime SLA",
-        "Established Azure DevOps CI/CD pipeline governance and managed test execution automation, reducing manual testing effort by 70%"
+        "Served as core member of QA Center of Excellence, defining testing standards and best practices across multiple client programs",
+        "Led and mentored a QA team of 8 engineers, acting as technical escalation point and advisor to stakeholders",
+        "Architected and implemented UI automation framework using Selenium and C# with Page Object Model and SOLID principles",
+        "Built scalable API automation framework using RestSharp and HttpClient with data-driven and contract-based testing strategies for 200+ endpoints",
+        "Designed and executed performance testing strategy using JMeter, improving API response times by 40% and meeting 99.9% uptime SLA",
+        "Established Azure DevOps CI/CD governance reducing manual testing effort by 70% and improving release confidence"
       ]
     },
     {
@@ -34,12 +35,11 @@ export function Experience() {
       company: "Microlise Telematics Pvt Ltd",
       period: "June 2017 – Dec 2021",
       responsibilities: [
-        "Analyzed requirements and technical specifications for system tests",
-        "Developed C# .Net automation framework for Amber project using structure Map and SOLID principles",
-        "Automated and modified around 680 tests for web and embedded applications",
-        "Created Windows simulator app for data playback",
-        "Maintained code and recorded defects in TFS (Team Foundation Server)",
-        "Created CI/CD pipeline using Jenkins"
+        "Designed and evolved C# .NET automation framework using StructureMap and SOLID principles for large-scale system testing",
+        "Automated and maintained 680+ test scenarios for web and embedded systems with high reliability",
+        "Developed Windows-based simulator for telemetry data playback enabling complex system validation",
+        "Integrated automation into Jenkins pipelines enabling continuous testing and faster feedback loops",
+        "Collaborated with developers and product teams to analyze requirements and embed testability into system design"
       ]
     },
     {
@@ -47,10 +47,10 @@ export function Experience() {
       company: "Infosys Ltd",
       period: "Feb 2014 – June 2017",
       responsibilities: [
-        "Created PowerShell automation scripts using WTT for CRM server and machine setup",
-        "Developed Appium (Selenium C#) automation scripts for IOS and Android devices",
-        "Conducted unit testing and resolved issues with automation scripts",
-        "Gathered requirements and provided solutions/customization options"
+        "Built PowerShell-based automation for CRM server provisioning and environment setup",
+        "Developed mobile automation solutions using Appium and Selenium C# for iOS and Android platforms",
+        "Partnered with development teams to perform unit and integration testing and resolve quality issues early",
+        "Gathered requirements and delivered customized automation solutions for enterprise clients"
       ]
     }
   ];
@@ -61,7 +61,10 @@ export function Experience() {
         <h2 className="text-3xl font-bold text-center mb-12">Professional Experience</h2>
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, index) => (
-            <div key={index} className="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div
+              key={index}
+              className="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
+            >
               <div className="flex items-start gap-4 mb-4">
                 <Briefcase className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div className="flex-1">
@@ -73,6 +76,7 @@ export function Experience() {
                   </div>
                 </div>
               </div>
+
               <ul className="space-y-2 ml-10">
                 {exp.responsibilities.map((resp, idx) => (
                   <li key={idx} className="flex items-start gap-2 text-gray-600">

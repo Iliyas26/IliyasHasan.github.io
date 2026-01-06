@@ -7,6 +7,7 @@ export function Hero() {
     console.error('Image failed to load');
     console.log('Image src:', e.currentTarget.src);
   };
+
   return (
     <section
       id="home"
@@ -14,6 +15,8 @@ export function Hero() {
     >
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center text-center">
+
+          {/* Profile Image */}
           <div className="mb-8">
             <img
               src={profileImg}
@@ -22,31 +25,50 @@ export function Hero() {
               onError={handleImageError}
             />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+
+          {/* Name */}
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-3">
             Iliyas Hasan
           </h1>
-          <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
-            Lead SDET | Automation Expert
+
+          {/* Role */}
+          <h2 className="text-xl md:text-2xl text-gray-600 mb-5">
+            Lead SDET / Test Architect | Designing Scalable Test Systems
           </h2>
-          <p className="max-w-2xl text-gray-600 mb-8">
-            Dynamic IT professional with 10 years of experience specializing in
-            test automation and quality assurance. Expert in C#, Python,
-            Selenium, and modern testing frameworks.
+
+          {/* Summary — constrained width for readability */}
+          <p className="max-w-[65ch] text-gray-600 mb-8 leading-relaxed">
+            Lead SDET / Test Architect with 10+ years of experience designing scalable automation
+            platforms for web and API-driven systems. Specialized in building enterprise-grade test
+            frameworks, integrating quality into CI/CD pipelines, and driving measurable improvements
+            in delivery speed and product reliability. Proven leader in mentoring teams, defining test
+            strategy, and partnering with engineering to embed quality across the SDLC.
           </p>
+
+          {/* Capability Chips */}
           <div className="flex flex-wrap justify-center gap-4">
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md">
               <Terminal className="w-5 h-5 text-blue-600" />
-              <span>Automation</span>
+              <span className="text-sm font-medium text-gray-700">
+                Automation Architecture
+              </span>
             </div>
+
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md">
               <Code2 className="w-5 h-5 text-blue-600" />
-              <span>C# & Python</span>
+              <span className="text-sm font-medium text-gray-700">
+                C# · TypeScript · Python
+              </span>
             </div>
+
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-md">
               <TestTubes className="w-5 h-5 text-blue-600" />
-              <span>CI/CD Expert</span>
+              <span className="text-sm font-medium text-gray-700">
+                CI/CD & Quality Gates
+              </span>
             </div>
           </div>
+
         </div>
       </div>
     </section>

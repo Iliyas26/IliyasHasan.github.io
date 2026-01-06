@@ -18,7 +18,7 @@ export function Header() {
             <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={handleNavClick}>About</a>
             <a href="#skills" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={handleNavClick}>Skills</a>
             <a href="#experience" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={handleNavClick}>Experience</a>
-            <a href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={handleNavClick}>Certifications</a>
+            <a href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={handleNavClick}>Credentials & Continuous Learning</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors" onClick={handleNavClick}>Contact</a>
             <a href="https://www.linkedin.com/in/iliyas-hasan-08454a42" target="_blank" rel="noopener noreferrer" 
                className="text-gray-600 hover:text-blue-600 transition-colors">
