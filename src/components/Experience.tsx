@@ -8,13 +8,21 @@ export function Experience() {
       company: "Jet2 Travel Technology Pvt Ltd",
       period: "Sep 2022 – Present",
       responsibilities: [
-        "Defined quality strategy and led test planning resulting in 40% reduction in execution time and 95% automation coverage across UI and API layers",
-        "Orchestrated cross-functional automation initiatives, mentoring 4 team members and establishing standards that improved team productivity by 60%",
-        "Designed and operationalized AI-assisted development workflows using GitHub Copilot with custom prompt templates for SpecFlow feature files and step definitions, accelerating feature automation delivery by 30% while maintaining code quality standards",
-        "Established AI governance guidelines (review, validation, and security checks) ensuring safe and consistent use of AI-generated test code across the team",
-        "Architected and delivered enterprise-scale automation platform supporting 500+ scenarios across UI, API, and performance testing using Selenium, Playwright, and k6",
-        "Built CI/CD quality gates and pipeline governance reducing deployment failures by 70% and enabling 3x faster release cycles",
-        "Drove technical excellence through code review practices and reliability engineering, achieving 99.9% test stability and zero production defects for 6 consecutive releases"
+        "Lead SDET / Test Architect — Jet2 Travel Technology | Sep 2022 – Present", 
+        "Driving quality engineering transformation for a large-scale travel technology platform through AI-powered testing solutions, enterprise automation, and cloud-native quality practices.",
+        "AI & Agentic Engineering",
+        "Developed a custom MCP server integrated with WireMock and GitHub Copilot, enabling engineers to generate, manage, and maintain API stubs through natural language prompts",
+        "Designed an AI agent that converts acceptance criteria into SpecFlow/ReqnRoll feature files and C# step scaffolding, cutting BDD authoring time by 40%",
+        "Implemented an AI code review pipeline analysing PRs for anti-patterns, fragile selectors, and missing assertions with inline feedback",
+        "Established AI governance guidelines for safe, consistent use of AI-generated test code", 
+        "Automation & Cloud", 
+        "Architected enterprise automation platform (UI, API, integration, performance) using C#, Selenium, Playwright, SpecFlow, RestSharp, and k6 — adopted across multiple delivery teams",
+        "Integrated AWS (DynamoDB, SQS, S3, Lambda) for test data management, event-driven validation, and environment orchestration",
+        "Built Azure DevOps CI/CD quality gates and Docker-based test environments for consistent, reproducible execution", 
+        "Quality Leadership", 
+        "Define quality strategy, automation roadmap, and risk-based testing approaches across multiple squads",
+        "Mentor QA engineers through technical coaching, architecture reviews, and capability development",
+        "Partner with Product, Engineering, and Architecture leads to embed quality across the SDLC"
       ]
     },
     {
